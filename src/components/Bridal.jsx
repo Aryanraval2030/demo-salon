@@ -1,27 +1,30 @@
 import { motion } from "framer-motion";
 import styles from "./Bridal.module.css";
-
 const IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=900",
+    src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900",
     tall: true,
-  },
+  }, // Bridal makeup close-up
+
   {
-    src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900",
+    src: "https://images.unsplash.com/photo-1594736797933-d0d6e4e8b7c4?w=900",
     tall: false,
-  },
+  }, // Bridal hairstyle
+
   {
-    src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900",
+    src: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=900",
     tall: false,
-  },
+  }, // Bridal jewellery
+
   {
-    src: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=900",
+    src: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=900",
     tall: true,
-  },
+  }, // Professional bridal portrait
+
   {
-    src: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=900",
+    src: "https://images.unsplash.com/photo-1610173827002-62c0f1f05d10?w=900",
     tall: false,
-  },
+  }, // Wedding makeup details
 ];
 export default function Bridal() {
   return (

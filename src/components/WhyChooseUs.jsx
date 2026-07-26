@@ -1,13 +1,33 @@
-import { motion } from 'framer-motion';
-import { Award, Package, ShieldCheck, UserCheck, Gem } from 'lucide-react';
-import styles from './WhyChooseUs.module.css';
+import { motion } from "framer-motion";
+import { Award, Package, ShieldCheck, UserCheck, Gem } from "lucide-react";
+import styles from "./WhyChooseUs.module.css";
 
 const POINTS = [
-  { icon: Award, title: 'Experienced Staff', desc: 'A team trained across leading academies in hair, makeup, and skin care.' },
-  { icon: Package, title: 'Premium Products', desc: 'We use only trusted, dermat-approved and internationally recognized brands.' },
-  { icon: ShieldCheck, title: 'Hygienic Environment', desc: 'Sanitized tools and a spotless, comfortable studio for every visit.' },
-  { icon: UserCheck, title: 'Personalized Service', desc: 'Consultations tailored to your features, skin tone, and occasion.' },
-  { icon: Gem, title: 'Affordable Luxury', desc: 'Premium results and experience, priced to be enjoyed often, not rarely.' },
+  {
+    icon: Award,
+    title: "Experienced Staff",
+    desc: "A team trained across leading academies in hair, makeup, and skin care.",
+  },
+  {
+    icon: Package,
+    title: "Premium Products",
+    desc: "We use only trusted, dermat-approved and internationally recognized brands.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Hygienic Environment",
+    desc: "Sanitized tools and a spotless, comfortable studio for every visit.",
+  },
+  {
+    icon: UserCheck,
+    title: "Personalized Service",
+    desc: "Consultations tailored to your features, skin tone, and occasion.",
+  },
+  {
+    icon: Gem,
+    title: "Affordable Luxury",
+    desc: "Premium results and experience, priced to be enjoyed often, not rarely.",
+  },
 ];
 
 export default function WhyChooseUs() {
@@ -17,7 +37,7 @@ export default function WhyChooseUs() {
         <div className={styles.layout}>
           <div className={styles.imageCol}>
             <motion.img
-              src="https://picsum.photos/seed/stylist-client-care/900/1000"
+              src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900"
               alt="Stylist attending to a client at Saura Salon"
               initial={{ opacity: 0, scale: 0.96 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -40,7 +60,11 @@ export default function WhyChooseUs() {
                     initial={{ opacity: 0, x: 24 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, amount: 0.4 }}
-                    transition={{ duration: 0.55, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
+                    transition={{
+                      duration: 0.55,
+                      delay: index * 0.1,
+                      ease: [0.22, 1, 0.36, 1],
+                    }}
                   >
                     <Icon size={20} strokeWidth={1.5} className={styles.icon} />
                     <div>
