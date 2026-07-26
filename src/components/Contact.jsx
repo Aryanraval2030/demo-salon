@@ -32,7 +32,7 @@ export default function Contact() {
               <div>
                 <h3>Phone</h3>
                 <p>
-                  <a href="tel:+917990754015">+91 79907 54015</a>
+                  <a href="">+91 79907 54015</a>
                 </p>
               </div>
             </div>
@@ -46,7 +46,8 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://wa.me/917990754015"
+              // href="https://wa.me/917990754015"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className={styles.whatsappInline}
