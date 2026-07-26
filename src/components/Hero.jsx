@@ -1,13 +1,13 @@
-import { motion } from 'framer-motion';
-import { ArrowDown } from 'lucide-react';
-import styles from './Hero.module.css';
+import { motion } from "framer-motion";
+import { ArrowDown } from "lucide-react";
+import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
     <section id="home" className={styles.hero} aria-label="Introduction">
       <div className={styles.bg}>
         <img
-          src="https://picsum.photos/seed/luxury-salon-hero/1920/1080"
+          src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1920"
           alt=""
           aria-hidden="true"
         />
@@ -39,7 +39,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
-          Premium Hair, Bridal Makeup, Nails, and Skin Care Services in Ahmedabad.
+          Premium Hair, Bridal Makeup, Nails, and Skin Care Services in
+          Ahmedabad.
         </motion.p>
 
         <motion.div
@@ -63,7 +64,10 @@ export default function Hero() {
         aria-label="Scroll to explore"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y: [0, 8, 0] }}
-        transition={{ opacity: { delay: 1.4, duration: 0.6 }, y: { delay: 1.6, duration: 1.8, repeat: Infinity, ease: 'easeInOut' } }}
+        transition={{
+          opacity: { delay: 1.4, duration: 0.6 },
+          y: { delay: 1.6, duration: 1.8, repeat: Infinity, ease: "easeInOut" },
+        }}
       >
         <ArrowDown size={18} />
       </motion.a>
