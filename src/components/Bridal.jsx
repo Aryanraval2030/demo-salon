@@ -2,29 +2,29 @@ import { motion } from "framer-motion";
 import styles from "./Bridal.module.css";
 const IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900",
+    src: "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=900",
     tall: true,
-  }, // Bridal makeup close-up
-
+  },
   {
-    src: "https://images.unsplash.com/photo-1594736797933-d0d6e4e8b7c4?w=900",
+    src: "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=900",
     tall: false,
-  }, // Bridal hairstyle
-
+  },
   {
-    src: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=900",
+    src: "https://images.pexels.com/photos/7755655/pexels-photo-7755655.jpeg?auto=compress&cs=tinysrgb&w=900",
     tall: false,
-  }, // Bridal jewellery
-
+  },
   {
-    src: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=900",
+    src: "https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg?auto=compress&cs=tinysrgb&w=900",
     tall: true,
-  }, // Professional bridal portrait
-
+  },
   {
-    src: "https://images.unsplash.com/photo-1610173827002-62c0f1f05d10?w=900",
+    src: "https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&w=900",
     tall: false,
-  }, // Wedding makeup details
+  },
+  {
+    src: "https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&w=900",
+    tall: true,
+  },
 ];
 export default function Bridal() {
   return (
