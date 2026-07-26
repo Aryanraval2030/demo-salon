@@ -1,0 +1,76 @@
+.bridal {
+  padding: var(--section-padding) 0;
+  background: var(--color-champagne);
+}
+
+.top {
+  margin-bottom: 56px;
+}
+
+.copy {
+  max-width: 620px;
+}
+
+.heading {
+  font-size: clamp(2rem, 4.4vw, 3.1rem);
+  margin: 18px 0 20px;
+  line-height: 1.15;
+}
+
+.text {
+  color: var(--color-text-soft);
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: inline-block;
+  background: var(--color-black);
+  color: var(--color-ivory);
+  padding: 15px 32px;
+  border-radius: 2px;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: background 0.35s var(--ease-luxury), transform 0.35s var(--ease-luxury);
+}
+
+.cta:hover {
+  background: var(--color-gold-dark);
+  transform: translateY(-3px);
+}
+
+.masonry {
+  columns: 3 220px;
+  column-gap: 20px;
+}
+
+.tile {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+}
+
+.tile.tall {
+  aspect-ratio: 3 / 4.4;
+}
+
+.tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-luxury);
+}
+
+.tile:hover img {
+  transform: scale(1.06);
+}
+
+@media (max-width: 700px) {
+  .masonry {
+    columns: 2 160px;
+  }
+}

@@ -1,0 +1,46 @@
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.text {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 6vw, 3.4rem);
+  letter-spacing: 0.24em;
+  color: var(--color-ivory);
+  white-space: nowrap;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 0.75em;
+  margin-left: 6px;
+  background: var(--color-gold);
+  animation: blink 0.85s steps(1) infinite;
+  vertical-align: middle;
+}
+
+.rule {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+  transform-origin: center;
+}
+
+@keyframes blink {
+  0%, 45% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
