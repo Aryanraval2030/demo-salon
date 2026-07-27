@@ -23,8 +23,7 @@ export default function Contact() {
               <MapPin size={20} className={styles.icon} strokeWidth={1.5} />
               <div>
                 <h3>Address</h3>
-                <p>Beside Trupti Bakery, Opp. Planet Health, Jodhpur Village, Ahmedabad.</p>
-              </div>
+<p>Beside Joe's Pizza, Opp. Washington Square Park, Greenwich Village, New York.</p>              </div>
             </div>
 
             <div className={styles.infoItem}>
@@ -32,7 +31,7 @@ export default function Contact() {
               <div>
                 <h3>Phone</h3>
                 <p>
-                  <a href="">+91 79907 54015</a>
+                  <a href="">+91 79907 11111</a>
                 </p>
               </div>
             </div>
@@ -66,7 +65,7 @@ export default function Contact() {
           >
             <iframe
               title="Saura Salon location map"
-              src="https://www.google.com/maps?q=Jodhpur%20Village%2C%20Ahmedabad%2C%20Gujarat&output=embed"
+              src="https://www.google.com/maps/search/?api=1&query=123+5th+Avenue+New+York+NY+10001"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
