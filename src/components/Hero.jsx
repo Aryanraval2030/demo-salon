@@ -21,7 +21,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
-          Jodhpur Village, Ahmedabad
+          Jodhpur Village, New Yourk
         </motion.p>
 
         <motion.h1
