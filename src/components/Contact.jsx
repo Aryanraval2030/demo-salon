@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { MapPin, Phone, Clock, MessageCircle } from 'lucide-react';
-import styles from './Contact.module.css';
+import { motion } from "framer-motion";
+import { MapPin, Phone, Clock, MessageCircle } from "lucide-react";
+import styles from "./Contact.module.css";
 
 export default function Contact() {
   return (
@@ -23,7 +23,11 @@ export default function Contact() {
               <MapPin size={20} className={styles.icon} strokeWidth={1.5} />
               <div>
                 <h3>Address</h3>
-<p>Beside Joe's Pizza, Opp. Washington Square Park, Greenwich Village, New York.</p>              </div>
+                <p>
+                  Beside Joe's Pizza, Opp. Washington Square Park, Greenwich
+                  Village, New York.
+                </p>{" "}
+              </div>
             </div>
 
             <div className={styles.infoItem}>
@@ -65,7 +69,7 @@ export default function Contact() {
           >
             <iframe
               title="Saura Salon location map"
-              src="https://www.google.com/maps/search/?api=1&query=123+5th+Avenue+New+York+NY+10001"
+              src="https://maps.google.com/maps?q=123+5th+Avenue+New+York+NY+10001&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen

@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap");
 
 :root {
-  --color-ivory: #FAF6EF;
-  --color-black: #15120F;
-  --color-charcoal: #221E1A;
-  --color-beige: #EAE0D0;
-  --color-champagne: #F3EADA;
-  --color-gold: #B08D57;
-  --color-gold-light: #D9BE8F;
-  --color-gold-dark: #8A6B3F;
-  --color-text-soft: #6B6259;
+  --color-ivory: #faf6ef;
+  --color-black: #15120f;
+  --color-charcoal: #221e1a;
+  --color-beige: #eae0d0;
+  --color-champagne: #f3eada;
+  --color-gold: #b08d57;
+  --color-gold-light: #d9be8f;
+  --color-gold-dark: #8a6b3f;
+  --color-text-soft: #6b6259;
 
-  --font-display: 'Playfair Display', serif;
-  --font-body: 'Jost', sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-body: "Jost", sans-serif;
 
   --max-width: 1280px;
   --section-padding: clamp(64px, 10vw, 140px);
@@ -38,7 +38,10 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-display);
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -85,7 +88,7 @@ ul {
 }
 
 .eyebrow::before {
-  content: '';
+  content: "";
   width: 28px;
   height: 1px;
   background: var(--color-gold);
@@ -93,7 +96,9 @@ ul {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;

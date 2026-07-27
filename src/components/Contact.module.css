@@ -1,6 +1,8 @@
 .section {
   padding: var(--section-padding) 0;
   background: var(--color-ivory);
+    scroll-margin-top: 80px;
+
 }
 
 .header {

@@ -1,6 +1,8 @@
 .section {
   padding: var(--section-padding) 0;
   background: var(--color-champagne);
+    scroll-margin-top: 80px;
+
 }
 
 .header {

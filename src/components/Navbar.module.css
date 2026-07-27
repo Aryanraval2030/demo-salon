@@ -8,7 +8,10 @@
   backdrop-filter: blur(18px) saturate(140%);
   -webkit-backdrop-filter: blur(18px) saturate(140%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  transition: background 0.4s var(--ease-luxury), padding 0.4s var(--ease-luxury), border-color 0.4s var(--ease-luxury);
+  transition:
+    background 0.4s var(--ease-luxury),
+    padding 0.4s var(--ease-luxury),
+    border-color 0.4s var(--ease-luxury);
 }
 
 .navbar.scrolled {
@@ -60,6 +63,7 @@
   margin: 0 auto;
 }
 
+
 .link {
   font-size: 0.86rem;
   letter-spacing: 0.04em;
@@ -70,7 +74,7 @@
 }
 
 .link::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -96,7 +100,9 @@
   letter-spacing: 0.05em;
   padding: 11px 22px;
   border-radius: 2px;
-  transition: background 0.35s var(--ease-luxury), color 0.35s var(--ease-luxury);
+  transition:
+    background 0.35s var(--ease-luxury),
+    color 0.35s var(--ease-luxury);
 }
 
 .cta:hover {

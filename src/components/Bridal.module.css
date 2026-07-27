@@ -1,6 +1,7 @@
 .bridal {
   padding: var(--section-padding) 0;
   background: var(--color-champagne);
+  scroll-margin-top: 80px;
 }
 
 .top {
@@ -33,7 +34,9 @@
   border-radius: 2px;
   font-size: 0.85rem;
   letter-spacing: 0.05em;
-  transition: background 0.35s var(--ease-luxury), transform 0.35s var(--ease-luxury);
+  transition:
+    background 0.35s var(--ease-luxury),
+    transform 0.35s var(--ease-luxury);
 }
 
 .cta:hover {
